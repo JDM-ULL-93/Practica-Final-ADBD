@@ -30,13 +30,14 @@ FUNCTION getEdadCliente (dniCliente CHAR(9));
 RETURNS FLOAT
 ```
 
-El check que se realiza dentro de esta fución puede desactivarse seteando la variable "<EnableCheckMinPsicologoMedicoSecretario>" de la taba "Flags" a FALSE.
-Esta función es la responsable de comprobar en los triggers BeforeInsert, BeforeUpdate y BeforeDelete de la relación 'Trabaja', que el centro sobre el que se van a modificar sus 
-registros cumple el minimo de 1 psicologo/a, 1 medico/a y 1 secretario/a
 ```sql
 FUNCTION thereIsMinPsicologoMedicoSecretario (direccion VARCHAR(255));
 RETURNS BOOLEAN
 ```
+
+*thereIsMinPsicologoMedicoSecretario* : El check que se realiza dentro de esta fución puede desactivarse seteando la variable "<EnableCheckMinPsicologoMedicoSecretario>" de la taba "Flags" a FALSE.
+Esta función es la responsable de comprobar en los triggers BeforeInsert, BeforeUpdate y BeforeDelete de la relación 'Trabaja', que el centro sobre el que se van a modificar sus 
+registros cumple el minimo de 1 psicologo/a, 1 medico/a y 1 secretario/a
 
 ```sql
 FUNCTION IsEmpleadoSecretario (dniEmpleado CHAR(9));
@@ -58,11 +59,12 @@ FUNCTION IsEmpleadoAdministrador (dniEmpleado CHAR(9));
 RETURNS BOOLEAN
 ```
 
-Ejecutado para obtener el atributo calculado 'salario/día' de la relación "Trabajo"
+
 ```sql
 FUNCTION calcSalary (dniEmpleado CHAR(9));
 RETURNS FLOAT
 ```
+*calcSalary* : Ejecutado para obtener el atributo calculado 'salario/día' de la relación "Trabajo"
 
 
 ```sql
@@ -77,7 +79,7 @@ excludeTable{
 FUNCTION isInOtherEmpleadoTable (dniEmpleado CHAR(9), excludeTable INT);
 RETURNS BOOLEAN
 ```
-
+*isInOtherEmpleadoTable* : Administra la restricción de exclusividad. Responsable de que 1 empleado solo pueda ser o Medico, o Administrador, o Secretario, o Psicologo.
 
 
 
