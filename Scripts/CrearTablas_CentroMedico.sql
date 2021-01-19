@@ -1,3 +1,5 @@
+-- CREATE schema `Centro_Medico`;
+
 DROP TABLE IF EXISTS `Centro_Medico`.Flags;
 CREATE TABLE IF NOT EXISTS `Centro_Medico`.Flags(
 			`varName` VARCHAR(255) NOT NULL,
