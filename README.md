@@ -7,6 +7,19 @@ Javier‌ ‌Duque‌ ‌Melguizo‌ 		‌( ‌alu0101160337‌‌@ull.edu.es )
 
 ‌Eduardo‌ ‌Suárez‌ ‌Ojeda‌ ‌		‌( ‌alu0100896565‌‌‌@ull.edu.es )
  
+ 
+# Descripción:
+
+El Centro Médico del Coche es una empresa que se dedica a ofrecer certificados médicos en Tenerife con una máxima profesionalidad y un trato excelente. Se proporcionan servicios de carner de conducir, certificados médicos, renovación del carnet, canjes, certificados para seguridad privada, certificados de armas, certificados de perror peligrosos, de buceo... etc.
+
+Dicha empresa cuenta con tres centros en la isla de Tenerife, localizados en la zona norte de la isla, en concreto en los municipios de La Orotava, Icod de los Vinos y Los Realejos. Cada centro tiene un horario fijo para los días laborables.
+
+Actualmente la empresa cuenta con una plantilla de empleados que se dividen en médicos, psicólogos, secretarios y administradores. Dichos empleados rotan entre los distintos centros manteniendo en todo momento la couta mínima de miembros necesaria que se puedan expedir todos los tipos de ceertificados disponibles en los centros, en concreto la plantilla mínima constará de 1 médico, 1 psicólogo y 1 secretario.
+
+Por otro lado los clientes acuden para solicitar un certificado especifico. Pueden obtener una cita previa o acceder al centro sin ella. El coste y la duración de los certificados varían en función de la edad y de las patologías que sufra dicho cliente. 
+
+A la empresa le interesa guardar la información necesaria sobre sus clientes para recordarle cuando la fecha de expiración se aproxime y ofrecerles una nueva cita para renovar el certificado. Paara ello es necesario guardar, tanto la fecha de expiración de los diversos ceertificados como los números de teléfono de los clientes, o en su defecto, su correo electrónico.
+ 
 ### Documentación
 
 
@@ -80,7 +93,5 @@ FUNCTION isInOtherEmpleadoTable (dniEmpleado CHAR(9), excludeTable INT);
 RETURNS BOOLEAN
 ```
 *isInOtherEmpleadoTable* : Administra la restricción de exclusividad. Responsable de que 1 empleado solo pueda ser o Medico, o Administrador, o Secretario, o Psicologo.
-
-
 
 
