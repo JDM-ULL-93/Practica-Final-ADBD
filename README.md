@@ -15,7 +15,7 @@ Para acceder a los siguientes enlaces es necesario acceder con una cuenta miembr
  - [Carga de datos](https://docs.google.com/document/d/1S4d5J_7XqTSasfPNj1kCIfsQ8GkMeAQp-brxX9Rvikc/edit?usp=sharing)
  - [Scripts](https://drive.google.com/drive/folders/1vpq5KUp80rZm5kahULCwD3Up39N0DC80?usp=sharing)
 # Descripción general:
-El presente documento se trata de un informe básico sobre el proyecto final de ADBD. Este, consistía en la creación desde cero de una base de datos para una organización. Para ello era necesario proceder con una recopilación inicial de requisitos y, posteriormente, representarlos bajo los estándares de los modelos ER/E y lógico relacional. Acto seguido, los modelos obtenidos se usaban como base para la creación de los scripts MySQL correspondientes que permitiesen la codificación de la base de datos, además de cualquier posible disparador que se considerase necesario para mantener la integridad y coherencia de los datos una vez la base de datos comenzara su funcionamiento.
+El presente documento se trata de un informe básico sobre el proyecto final de ADBD. Este consistía en la creación desde cero de una base de datos para una organización. Para ello era necesario proceder con una recopilación inicial de requisitos y, posteriormente, representarlos bajo los estándares de los modelos ER/E y lógico relacional. Acto seguido, los modelos obtenidos se usaban como base para la creación de los scripts MySQL correspondientes que permitiesen la codificación de la base de datos, además de cualquier posible disparador que se considerase necesario para mantener la integridad y coherencia de los datos una vez la base de datos comenzara su funcionamiento.
 
 # Descripción - Requisitos:
 
