@@ -41,7 +41,7 @@ CREATE SCHEMA IF NOT EXISTS `Centro_Medico`
 
 Una vez ejecutado lo anterior, estaremos listos para proceder a la creación de las tablas de base de datos descritas en lenguaje SQL en el primer apartado del documento ***("CÓDIGO DE COMPONENTES")***. 
 
-El segundo apartado de este documento ***("")*** recoge la creación de todas las funciones (sus cabeceras se encuentran descritas en el apartado "Documentación" de este documento) y procedimientos necesarios para garantizar la integridad de sus datos y el funcionamiento lógico de la base de datos (por ejemplo, el cálculo de los atributos calculados).Son estos procedimientos y funciones los que se encargan de implementar las restricciones semánticas descritas en los documentos anteriores.
+El segundo apartado de este documento ***("CÓDIGO DE PROCEDIMIENTOS DE OPERACIÓN Y SEGURIDAD")*** recoge la creación de todas las funciones (sus cabeceras se encuentran descritas en el apartado "Documentación" de este documento) y procedimientos necesarios para garantizar la integridad de sus datos y el funcionamiento lógico de la base de datos (por ejemplo, el cálculo de los atributos calculados).Son estos procedimientos y funciones los que se encargan de implementar las restricciones semánticas descritas en los documentos anteriores.
 
  
 # Distribución de tareas:
