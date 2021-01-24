@@ -28,6 +28,21 @@ Actualmente la empresa cuenta con una plantilla de empleados que se dividen en m
 Por otro lado los clientes acuden para solicitar un certificado especifico. Pueden obtener una cita previa o acceder al centro sin ella. El coste y la duración de los certificados varían en función de la edad y de las patologías que sufra dicho cliente. 
 
 A la empresa le interesa guardar la información necesaria sobre sus clientes para recordarle cuando la fecha de expiración se aproxime y ofrecerles una nueva cita para renovar el certificado. Paara ello es necesario guardar, tanto la fecha de expiración de los diversos ceertificados como los números de teléfono de los clientes, o en su defecto, su correo electrónico.
+
+# Descripción - Generación de código y Procedimientos (CSI-2)
+
+En este documento *("_ScriptGeneración.pdf")* se encuentra primero la descripción de las tablas y después la definición de funciones y procedimientos en lenguaje SQL preparadas para ser creadas por un gestor de bases de datos MySQL . 
+
+Conviene destacar que **toda creación se hace sobre un schema que se presupone creada llamada 'Centro_Medico'**, por lo tanto, la primera ejecución de este script requiere de indicar la creación de este schema al gestor bases de datos de la siguiente forma:
+
+```sql
+CREATE SCHEMA IF NOT EXISTS `Centro_Medico`
+```
+
+Una vez ejecutado lo anterior, estaremos listos para proceder a la creación de las tablas de base de datos descritas en lenguaje SQL en el primer apartado del documento ***("CÓDIGO DE COMPONENTES")***. 
+
+El segundo apartado de este documento ***("")*** recoge la creación de todas las funciones (sus cabeceras se encuentran descritas en el apartado "Documentación" de este documento) y procedimientos necesarios para garantizar la integridad de sus datos y el funcionamiento lógico de la base de datos (por ejemplo, el cálculo de los atributos calculados).Son estos procedimientos y funciones los que se encargan de implementar las restricciones semánticas descritas en los documentos anteriores.
+
  
 # Distribución de tareas:
 ### Común:
